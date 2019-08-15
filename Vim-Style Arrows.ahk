@@ -2,26 +2,26 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-!k::
+!k:: ; Up
 	Send, {Up}
 Return
 
-!j::
+!j:: ; Down
 	Send, {Down}
 Return
 
-!l::
+!l:: ; Right
 	Send, {Right}
 Return
 
-!H::
+!h:: ; Left
 	Send, {Left}
 Return
 
-!0::
+!0:: ; Beginning of Line
 	Send, {Home}
 Return
 
-!$::
+!$:: ; End of Line
 	Send, {End}
 Return
