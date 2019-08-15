@@ -5,4 +5,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ^+b::
 Send, ^{Esc}
 Send, Bluetooth and other devices settings
+Sleep 150
+Send, {Return}
 return
